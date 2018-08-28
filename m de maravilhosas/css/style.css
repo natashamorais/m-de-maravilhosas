@@ -119,7 +119,7 @@ a{
     text-transform: uppercase;
     color: #fff;
     font-size: 2.5rem;
-   padding: 24rem;
+   padding: 6rem;
 }
 
 .bell{
@@ -132,62 +132,74 @@ a{
      color: #63458A;
      font-family: "roboto slab" , sans-serif;
      font-size: 2rem;
-     margin-top: 1rem;
-     width: 100%;
+     
+     width: 40rem;
      text-align: center;
+     margin-top: 2rem;
+     margin-left: 4rem;
 }
+
 .bell__texto {
 font-size: 2rem;
 color: #000000;
-width: 100%;
+width: 40rem;
 text-align: center;
+margin: 4rem;
 
 }
 
 .bell__ilustra{
-    width: 100%;
+    width: 50rem;
 }
 
 .quote{
-   border: 2rem #63458A;
+   border: 1px solid #63458A;
     padding: 2rem;
     font-size: 2rem;
     color: #63458A;
     margin: 1rem;
     text-align: center;
+    width: 40rem;
+    margin: 4rem;
+    
 }
     
 .developer{
-    font-size:1.6rem;
+    font-size: 3rem;
     color: #674582;
     background-color: #E4B7E5;
-    width: 30rem;
-    margin-bottom: 2rem;
-    width: 50rem;
-    
+    margin: 5rem 0;
+    width: 49rem;
+    vertical-align: middle;
+    display: flex;
+   
 }
+
 
 .developer__natasha{
     width: 50%;
     height: 50%;
+    display: flex;
+   
 }
 
-
 .btn__btn_last{
-    border: 5px #C083B9;
+   border: 5px #C083B9;
    border-radius: 5px;
    background-color: #C083B9;
-   padding: 1.5rem;
-   margin:10rem;
-   color: white;
+   padding: 2rem;
+   margin-left:11.1rem;
+   color: #fff;
    text-transform: uppercase;
    font-weight: bolder;
+   text-align: center;
+   font-size: 1.5rem;
 }
 
 
 footer{
      background-color:#323534;
-     margin-top:2rem;
+     margin-top:5rem;
      margin-bottom: 0;
      width: 100%;
      
@@ -219,6 +231,47 @@ footer{
 .footer__rede{
     display: flex;
    justify-content: space-around;
+}
+
+
+
+.footer2{
+    background-color:#323534;
+    margin-top:5rem;
+    margin-bottom: 0;
+    width: 50rem;
+    
+
+}
+
+.footer__logo_big-down2{
+   display: none;
+}
+
+
+.footer__logo_small-down2{
+ padding: 1rem;
+ width: 75;
+ height: 75%;
+ margin-bottom: 1rem;
+ 
+
+}
+
+.footer__link_down2 a{
+   color: #fff;
+   font-size: 1rem;
+   font-weight: bolder;
+   vertical-align: middle;
+}
+
+.footer__facebook2{
+   display: none;
+}
+
+.footer__rede2{
+   display: flex;
+  justify-content: space-around;
 }
 
 

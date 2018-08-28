@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    
+}
+
+body{
+    font-size: 10px;
+    font-family: "montserrat" , sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.nav{
+    background-color:#674582;
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+}
+
+.nav__menu{
+    display: none;
+}
+
+.nav__rede{
+    display: none;
+}
+ 
+.nav__logo_big-up{
+  display: none
+}
+ 
+   
+.nav__mobile{
+     display: flex;
+     justify-content: flex-end;
+     margin-top: -1.5rem;
+     margin-right: 1rem;
+}
+
+
+ 
+
+.header__banner{
+     background: url("../img/banner.png");
+     height: 20rem;
+     background-size: cover;
+     width: 28.7rem;
+     margin-left: 0;
+}
+
+.header__title{
+    color: white;
+     text-align: center;
+     padding: 2rem;
+     padding-top: 6rem;
+}
+
+.header__title h1{
+ font-size: 1.5rem;
+}
+
+ .header__title p{
+     font-size: 1.1rem;
+ }
+ .btn__btn_first{
+    border: 5px #C083B9;
+   border-radius: 5px;
+   background-color: #C083B9;
+   padding: .7rem;
+   margin: 9.3rem;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bolder;
+}
+
+
+ .title-purple{
+     color: #63458A;
+     font-family: "roboto slab" , sans-serif;
+     font-size: 1rem;
+     margin-top: 1rem;
+     text-align: center;
+}
+
+
+
+.homenagem img{
+    width: 70%;
+    height: 70%;
+    margin: 5rem;
+}
+
+.homenagem{
+    margin: 1rem;
+}
+
+
+.main__nome{
+     font-weight: bolder;
+     font-size: 1.2rem;
+     margin: 6rem;
+
+}
+
+.hooks{
+    background: url("../img/bellhooks-2.jpg");
+    background-size: cover;
+    height: 30rem;
+    width:50rem;
+   
+}
+
+.hooks__title_uppercase{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2.5rem;
+   padding: 24rem;
+}
+
+.bell{
+    padding-top: 3rem;
+    color:#000000;
+    width: 100%;
+}
+
+.bell__title{
+     color: #63458A;
+     font-family: "roboto slab" , sans-serif;
+     font-size: 2rem;
+     margin-top: 1rem;
+     width: 100%;
+     text-align: center;
+}
+.bell__texto {
+font-size: 2rem;
+color: #000000;
+width: 100%;
+text-align: center;
+
+}
+
+.bell__ilustra{
+    width: 100%;
+}
+
+.quote{
+   border: 2rem #63458A;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #63458A;
+    margin: 1rem;
+    text-align: center;
+}
+    
+.developer{
+    font-size:1.6rem;
+    color: #674582;
+    background-color: #E4B7E5;
+    width: 30rem;
+    margin-bottom: 2rem;
+    width: 50rem;
+    
+}
+
+.developer__natasha{
+    width: 50%;
+    height: 50%;
+}
+
+
+.btn__btn_last{
+    border: 5px #C083B9;
+   border-radius: 5px;
+   background-color: #C083B9;
+   padding: 1.5rem;
+   margin:10rem;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bolder;
+}
+
+
+footer{
+     background-color:#323534;
+     margin-top:2rem;
+     margin-bottom: 0;
+     width: 100%;
+     
+ 
+}
+
+.footer__logo_big-down{
+    display: none;
+}
+ 
+ 
+.footer__logo_small-down{
+  padding: 1rem;
+  
+
+}
+
+.footer__link_down a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+
+.footer__facebook{
+    display: none;
+}
+
+.footer__rede{
+    display: flex;
+   justify-content: space-around;
+}
+
+
+

@@ -14,11 +14,41 @@ a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
+.nav2{
+    background-color:#674582;
+    height: 3rem;
+    width: 48rem;
+    position: fixed;
+}
+
+.nav__menu2{
+    display: none;
+}
+
+.nav__rede2{
+    display: none;
+}
+ 
+.nav__logo_big-up2{
+  display: none
+}
+ 
+   
+.nav__mobile2{
+     display: flex;
+     justify-content: flex-end;
+     margin-top: -1.5rem;
+     margin-right: 1rem;
+}
 
 .nav{
     background-color:#674582;
     height: 3rem;
-    width: 100%;
+    width: 23rem;
     position: fixed;
 }
 
@@ -92,7 +122,10 @@ a{
 .homenagem img{
     width: 70%;
     height: 70%;
-    margin: 5rem;
+    margin: 2rem;
+    background-color: #63458A;
+    border-radius: 1rem;
+    
 }
 
 .homenagem{
@@ -102,8 +135,9 @@ a{
 
 .main__nome{
      font-weight: bolder;
-     font-size: 1.2rem;
-     margin: 6rem;
+     font-size: 1.6rem;
+     margin: 1rem;
+    
 
 }
 
@@ -112,6 +146,7 @@ a{
     background-size: cover;
     height: 30rem;
     width:50rem;
+    
    
 }
 
@@ -128,18 +163,40 @@ a{
     width: 100%;
 }
 
-.bell__title{
+.bell__title1{
      color: #63458A;
      font-family: "roboto slab" , sans-serif;
      font-size: 2rem;
      
      width: 40rem;
+
      text-align: center;
      margin-top: 2rem;
      margin-left: 4rem;
 }
 
-.bell__texto {
+.bell__texto1 {
+font-size: 2rem;
+color: #000000;
+width: 40rem;
+text-align: center;
+margin: 4rem;
+
+}
+
+.bell__title2{
+    color: #63458A;
+    font-family: "roboto slab" , sans-serif;
+    font-size: 2rem;
+    
+    width: 40rem;
+    
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.bell__texto2 {
 font-size: 2rem;
 color: #000000;
 width: 40rem;
@@ -165,20 +222,24 @@ margin: 4rem;
 }
     
 .developer{
-    font-size: 3rem;
-    color: #674582;
     background-color: #E4B7E5;
     margin: 5rem 0;
-    width: 49rem;
-    vertical-align: middle;
     display: flex;
+    width: 49rem;
+}
+
+.developer__natasha{
+    font-size: 3rem;
+    color: #674582;
+    vertical-align: middle;
+    
    
 }
 
 
-.developer__natasha{
-    width: 50%;
-    height: 50%;
+.developer img{
+    width: 35%;
+    height: 35%;
     display: flex;
    
 }
@@ -193,7 +254,7 @@ margin: 4rem;
    text-transform: uppercase;
    font-weight: bolder;
    text-align: center;
-   font-size: 1.5rem;
+   font-size: 1rem;
 }
 
 
@@ -201,7 +262,7 @@ footer{
      background-color:#323534;
      margin-top:5rem;
      margin-bottom: 0;
-     width: 100%;
+     width: 24rem;
      
  
 }
@@ -240,6 +301,7 @@ footer{
     margin-top:5rem;
     margin-bottom: 0;
     width: 50rem;
+    height: 10rem;
     
 
 }
@@ -251,8 +313,8 @@ footer{
 
 .footer__logo_small-down2{
  padding: 1rem;
- width: 75;
- height: 75%;
+ width:50;
+ height:50% ;
  margin-bottom: 1rem;
  
 

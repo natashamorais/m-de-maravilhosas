@@ -1,0 +1,347 @@
+@media(min-width:768px){
+    .nav__mobile{
+        display: none;
+    }
+    .nav__logo_small-up{
+      padding: .8rem;
+    }
+
+    .nav{
+        width: 48rem;
+    }
+
+    .nav__menu{
+        display:flex;
+        justify-content: center;
+        color: #fff;
+        margin-top: -2.5rem;
+       
+    }
+
+    .nav__menu a{
+        color: #fff;
+        font-weight: bolder;
+        font-size: 1rem;
+        
+
+    }
+
+    .nav__home{
+      margin-right: 1.5rem;
+    }
+
+    
+    .nav__rede{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -2rem;
+        margin-right: .4rem;
+    }
+    .nav__face{
+        margin-right: .4rem;
+    }
+
+    .nav__insta{
+        margin-right: .4rem;
+    
+    }
+
+    .nav__din{
+        margin-right: .4rem;
+    
+    }
+    .nav__twitter{
+        margin-right: .4rem;
+    
+    }
+
+    .header__banner{
+        width: 48rem;
+        height: 48rem;
+    }
+
+    .header__title{
+        padding: 12rem;
+        padding-top: 
+    }
+
+    .btn__btn_first{
+        margin-left: 19.3rem;
+        margin-top: -5rem;
+        padding: 1.5rem;
+    }
+
+    .title-purple{
+        margin: 0;
+        text-align: center;
+        width: 45rem;
+    }
+
+   .homenagem{
+       width: 45rem;
+       margin: 5rem;
+       
+   }
+
+   .mujer01{
+    display: flex;   
+    flex-grow: 1;
+   }
+
+   .mujer02{
+    display: flex;   
+    flex-grow: 1;
+   }
+
+   .mujer03{
+    display: flex;   
+    flex-grow: 1;
+   }
+   
+   .mujer04{
+    display: flex;   
+    flex-grow: 1;
+   }
+   
+   .mujer05{
+    display: flex;   
+    flex-grow: 1;
+   }
+   
+   .mujer06{
+    display: flex;   
+    flex-grow: 1;
+   }
+   
+   .mujer07{
+    display: flex;   
+    flex-grow: 1;
+   }
+   
+   .mujer08{
+    display: flex;   
+    flex-grow: 1;
+   }
+   
+   .mujer09{
+    display: flex;   
+    flex-grow: 1;
+   }
+   
+   .mujer10{
+    display: flex;   
+    flex-grow: 1;
+   }
+   
+   
+  
+    .main__nome{
+        font-size: 1rem;
+        display:flex;
+        
+     
+    }
+    
+    .main__mulher img{
+        display:flex;
+        width: 5rem;
+        height: 5rem;
+        
+    }
+
+    .footer{
+        width: 39rem;
+        display: flex;
+        justify-content: space-around;
+ 
+    }
+ 
+    .footer__rede{
+        display: none;
+    }
+ 
+
+    .nav2{
+        width:49rem;
+    }
+
+    .nav__mobile2{
+        display: none;
+    }
+    .nav__logo_small-up2{
+      padding: .8rem;
+    }
+
+    .nav__menu{
+        display:flex;
+        justify-content: center;
+        color: #fff;
+        margin-top: -2.5rem;
+       
+    }
+
+    .nav__menu a{
+        color: #fff;
+        font-weight: bolder;
+        font-size: 1rem;
+        
+
+    }
+
+    .nav__home2{
+      margin-right: 1.5rem;
+    }
+
+    
+    .nav__rede2{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -2rem;
+        margin-right: .4rem;
+    }
+    .nav__face2{
+        margin-right: .4rem;
+    }
+
+    .nav__insta2{
+        margin-right: .4rem;
+    
+    }
+
+    .nav__din2{
+        margin-right: .4rem;
+    
+    }
+    .nav__twitter2{
+        margin-right: .4rem;
+    
+    }
+
+    .footer2{
+        width: 49rem;
+    }
+
+
+
+
+
+}
+
+@media(min-width:1024px){
+    .nav{
+        width: 47rem;
+    }
+  .header__banner{
+      width: 47rem;
+    }
+   .hooks{
+     width: 58.5rem;
+    } 
+    .nav2{
+        width: 58rem;
+    }   
+    
+    .bell__profile{
+        width: 30%;
+        height: 30%;
+        display: flex;
+        border-radius: 100%;
+        margin-top: 5rem;
+    }
+     .bell__texto1{
+         margin: 1rem;
+     }
+    
+    .bell__perfil{
+         display: flex;
+         flex-direction: row;
+         margin: 1rem;
+    }
+    
+   .bell__title1{
+       font-size: 2rem;
+       width: 30rem;
+    }
+
+    .bell__texto1{
+        font-size: 1.5rem;
+        width: 33rem;
+    }
+
+    .quote{
+        width: 49rem;
+        font-size: 2rem;
+    }
+
+    .bell__ilustra{
+        width: 52rem;
+    }
+
+
+
+    .bell__title2{
+        font-size: 2rem;
+        width: 45rem;
+     }
+ 
+     .bell__texto2{
+         font-size: 1.5rem;
+         width: 45rem;
+     }
+
+
+
+@media(min-width: 1228px){
+
+    .mujer01{
+        display: flex;   
+        flex-grow: 1;
+       }
+    
+       .mujer02{
+        display: flex;   
+        flex-grow: 1;
+       }
+    
+       .mujer03{
+        display: flex;   
+        flex-grow: 1;
+       }
+       
+       .mujer04{
+        display: flex;   
+        flex-grow: 1;
+       }
+       
+       .mujer05{
+        display: flex;   
+        flex-grow: 1;
+       }
+       
+       .mujer06{
+        display: flex;   
+        flex-grow: 1;
+       }
+       
+       .mujer07{
+        display: flex;   
+        flex-grow: 1;
+       }
+       
+       .mujer08{
+        display: flex;   
+        flex-grow: 1;
+       }
+       
+       .mujer09{
+        display: flex;   
+        flex-grow: 1;
+       }
+       
+       .mujer10{
+        display: flex;   
+        flex-grow: 1;
+       }
+
+}
+

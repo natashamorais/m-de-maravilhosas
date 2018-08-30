@@ -7,7 +7,7 @@
     }
 
     .nav{
-        width: 48rem;
+        width: 49rem;
     }
 
     .nav__menu{
@@ -132,6 +132,11 @@
     display: flex;   
     flex-grow: 1;
    }
+
+   footer{
+       height: 19rem;
+       width: 48rem;
+   }
    
    
   
@@ -162,7 +167,7 @@
  
 
     .nav2{
-        width:49rem;
+        width:55rem;
     }
 
     .nav__mobile2{
@@ -172,7 +177,7 @@
       padding: .8rem;
     }
 
-    .nav__menu{
+    .nav__menu2{
         display:flex;
         justify-content: center;
         color: #fff;
@@ -180,7 +185,7 @@
        
     }
 
-    .nav__menu a{
+    .nav__menu2 a{
         color: #fff;
         font-weight: bolder;
         font-size: 1rem;
@@ -216,10 +221,51 @@
         margin-right: .4rem;
     
     }
+   
+  
+    .bell__profile{
+        width: 43rem;
+        border-radius: 100%;
+    }
+
+    .quote{
+        width: 47rem;
+    }
+
+    .hooks{
+        width:54rem;
+    }
+
+    .bell{
+        width: 48rem;
+    }
+    .bell__texto1{
+        margin: 4rem;
+    }
+
+    .bell__texto2{
+        margin: 4rem;
+    }
+
+    .bell__ilustra{
+        width: 45rem;
+    }
+
+    .developer{
+        width: 55rem;
+    }
+    .btn__btn_last{
+        margin:20rem;
+    }
+
+
 
     .footer2{
-        width: 49rem;
+        width: 55rem;
+        height: 9rem;
     }
+
+    
 
 
 
@@ -229,70 +275,137 @@
 
 @media(min-width:1024px){
     .nav{
-        width: 47rem;
+        width: 64rem;
     }
   .header__banner{
-      width: 47rem;
+      width: 64rem;
     }
+
+    .header__title{
+        padding: 17rem;
+    }
+
+    .btn__btn_first{
+        margin-left: 28.3rem;
+    }
+
+    .title-purple{
+        width: 65rem;
+        margin-top: 7rem;
+    }
+
+    .homenagem{
+        margin: 5rem 13rem;
+    }
+
+    footer{
+     height: 20rem;
+     width:65rem;
+    }
+    
+    .footer__rede{
+        display: flex;
+    }
+
    .hooks{
-     width: 58.5rem;
+     width: 64.5rem;
     } 
     .nav2{
-        width: 58rem;
-    }   
+        width: 64rem;
+    } 
+    .nav2__logo{
+        margin-right: 1rem;
+    }  
     
     .bell__profile{
-        width: 30%;
-        height: 30%;
-        display: flex;
+        width:49rem;
         border-radius: 100%;
         margin-top: 5rem;
     }
-     .bell__texto1{
-         margin: 1rem;
-     }
+    
     
     .bell__perfil{
-         display: flex;
-         flex-direction: row;
+        
          margin: 1rem;
     }
     
    .bell__title1{
-       font-size: 2rem;
-       width: 30rem;
+       font-size: 3rem;
+       width: 46rem;
     }
 
     .bell__texto1{
-        font-size: 1.5rem;
-        width: 33rem;
+        font-size: 2rem;
+        width: 48rem;
     }
 
     .quote{
-        width: 49rem;
+        width: 56rem;
         font-size: 2rem;
     }
 
     .bell__ilustra{
-        width: 52rem;
+        width: 57rem;
     }
 
 
 
     .bell__title2{
-        font-size: 2rem;
+        font-size: 3rem;
         width: 45rem;
      }
  
      .bell__texto2{
-         font-size: 1.5rem;
-         width: 45rem;
+         font-size: 2rem;
+         width: 50rem;
+     }
+        
+     .developer{
+         width: 64rem;
      }
 
+     .footer2{
+         height: 19rem;
+         width: 64rem;
 
+     }
+
+     .btn__btn_last{
+         margin:26rem;
+     }
+    
+}
 
 @media(min-width: 1228px){
 
+
+    .nav{
+        width: 76rem;
+    
+    }
+
+    .header__banner{
+        width: 76rem;
+
+    }
+
+    .btn__btn_first{
+        margin-left: 35.3rem;
+    }
+
+    .title-purple{
+        width: 77rem;
+    }
+
+    .homenagem{
+        margin: 7rem 20rem;
+    }
+
+    footer{
+        height: 8rem;
+        width: 76rem;
+    }
+    
     .mujer01{
         display: flex;   
         flex-grow: 1;
@@ -343,5 +456,59 @@
         flex-grow: 1;
        }
 
-}
+        .nav2{
+           width: 84rem;
+           
+       }
+
+       .hooks{
+           width: 84rem;
+       }
+
+       .bell__perfil{
+           display: flex;
+           flex-direction: row;
+       }
+
+       .bell__profile{
+           width: 60%;
+           height: 60%;
+       }
+
+       .bell__title1{
+           width: 28rem;
+       }
+
+       .bell__texto1{
+           width: 25rem;
+       }
+
+       .bell__texto2{
+           width:68rem;
+       }
+
+       .bell__title2{
+           width: 66rem;
+       }
+
+       .bell__ilustra{
+           width: 76rem;
+       }
+
+       .developer{
+           width: 84rem;
+       }
+
+       .btn__btn_last{
+           margin: 36rem;
+       }
+       .quote{
+           width: 77rem;
+       }
+       .footer2{
+           width: 84rem;
+           height: 11rem;
+       }
+
+    }
 

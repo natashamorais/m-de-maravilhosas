@@ -21,7 +21,7 @@ ul{
 .nav2{
     background-color:#674582;
     height: 3rem;
-    width: 48rem;
+    width: 58.5rem;
     position: fixed;
 }
 
@@ -48,7 +48,7 @@ ul{
 .nav{
     background-color:#674582;
     height: 3rem;
-    width: 23rem;
+    width: 29rem;
     position: fixed;
 }
 
@@ -145,7 +145,7 @@ ul{
     background: url("../img/bellhooks-2.jpg");
     background-size: cover;
     height: 30rem;
-    width:50rem;
+    width:58.5rem;
     
    
 }
@@ -163,10 +163,15 @@ ul{
     width: 100%;
 }
 
+.bell__profile{
+    border-radius: 100%;
+    margin: 6rem;
+}
+
 .bell__title1{
      color: #63458A;
      font-family: "roboto slab" , sans-serif;
-     font-size: 2rem;
+     font-size: 3rem;
      
      width: 40rem;
 
@@ -176,7 +181,7 @@ ul{
 }
 
 .bell__texto1 {
-font-size: 2rem;
+font-size: 2.5rem;
 color: #000000;
 width: 40rem;
 text-align: center;
@@ -187,7 +192,7 @@ margin: 4rem;
 .bell__title2{
     color: #63458A;
     font-family: "roboto slab" , sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     
     width: 40rem;
     
@@ -197,7 +202,7 @@ margin: 4rem;
 }
 
 .bell__texto2 {
-font-size: 2rem;
+font-size: 2.5rem;
 color: #000000;
 width: 40rem;
 text-align: center;
@@ -212,11 +217,11 @@ margin: 4rem;
 .quote{
    border: 1px solid #63458A;
     padding: 2rem;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #63458A;
     margin: 1rem;
     text-align: center;
-    width: 40rem;
+    width: 52rem;
     margin: 4rem;
     
 }
@@ -225,7 +230,7 @@ margin: 4rem;
     background-color: #E4B7E5;
     margin: 5rem 0;
     display: flex;
-    width: 49rem;
+    width: 58rem;
 }
 
 .developer__natasha{
@@ -262,7 +267,7 @@ footer{
      background-color:#323534;
      margin-top:5rem;
      margin-bottom: 0;
-     width: 24rem;
+     width: 29rem;
      
  
 }
@@ -300,7 +305,7 @@ footer{
     background-color:#323534;
     margin-top:5rem;
     margin-bottom: 0;
-    width: 50rem;
+    width: 58.5rem;
     height: 10rem;
     
 
